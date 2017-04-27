@@ -1,6 +1,6 @@
 import tensorflow as tf
-from .rbm import RBM
-from .util import sample_bernoulli, sample_gaussian
+from rbm import RBM
+from util import sample_bernoulli, sample_gaussian
 
 
 class GBRBM(RBM):
